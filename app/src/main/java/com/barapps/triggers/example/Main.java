@@ -20,6 +20,7 @@ public class Main {
                 .build();
 
 
+
         Trigger trigger2 = TriggerBuilder
                 .when(axiom())
                 .perform(new IndependentActions.Builder()
