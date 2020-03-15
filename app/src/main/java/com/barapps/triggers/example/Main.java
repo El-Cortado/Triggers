@@ -1,6 +1,5 @@
 package com.barapps.triggers.example;
 
-import com.barapps.triggers.triggers.ContinuousTrigger;
 import com.barapps.triggers.triggers.Trigger;
 import com.barapps.triggers.triggers.TriggerBuilder;
 import com.barapps.triggers.triggers.actions.Actions;

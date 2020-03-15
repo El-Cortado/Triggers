@@ -4,14 +4,8 @@ import com.barapps.triggers.triggers.actions.exceptions.ActionExecutionException
 
 public class Actions {
 
-    public static ContinuousAction empty() {
-        return new ContinuousAction() {
-            @Override
-            public void stop() { }
-
-            @Override
-            public void execute() { }
-        };
+    public static Action empty() {
+        return () -> {};
     }
 
     public static void tryExecute(Action action) {
